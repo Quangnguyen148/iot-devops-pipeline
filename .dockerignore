@@ -1,0 +1,14 @@
+# Exclude unnecessary files from Docker build context
+terraform/
+.terraform/
+*.tfstate
+*.tfstate.backup
+.git/
+.github/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+README.md
+.dockerignore
+AWS_D2_TTNT_HK253_2026-05-20.pdf.pdf
