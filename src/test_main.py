@@ -48,5 +48,6 @@ def test_get_sensor_telemetry_not_found():
     response = client.get("/telemetry/non-existent-sensor")
     assert response.status_code == 404
     assert (
-        response.json()["detail"] == "Sensor non-existent-sensor not found"
+        response.json()["detail"]
+        == "Sensor non-existent-sensor not found"
     )
